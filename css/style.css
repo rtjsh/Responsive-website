@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poetsen+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.logo {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  width: 30%;
+  border: 3px solid orange;
+  border-radius: 30px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  cursor: pointer;
+}
+
+.nav-list {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-list li {
+  list-style: none;
+  padding: 28px 51px;
+  border-radius: 30px;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+}
+.nav-list li a:hover {
+  text-decoration: underline;
+  color: gray;
+}
+
+.right-nav {
+  width: 40%;
+  text-align: right;
+  padding: 0 12px;
+}
+
+#search {
+  padding: 5px;
+  font-size: 17px;
+  border-radius: 9px;
+  border: 2px solid black;
+}
+
+.background {
+  background: rgba(0, 0, 0, 0.7) url("../images/building2.jpg");
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.firstSection {
+  height: 100vh;
+}
+
+.box-main {
+  max-width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 80%;
+}
+
+.f-half {
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.s-half {
+  width: 30%;
+}
+
+.s-half img {
+  width: 70%;
+  border-radius: 30px;
+  border: 3px solid white;
+  display: block;
+  margin: auto;
+}
+
+.text-big {
+  font-size: 32px;
+  font-family: "Ubuntu", sans-serif;
+}
+.text-small {
+  font-size: 16px;
+  font-family: "Playfair Display", serif;
+}
+
+.btn {
+  padding: 5px 20px;
+  margin: 7px 3px;
+  border: 2px solid white;
+  border-radius: 8px;
+  font-size: 15px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+  text-decoration: underline;
+}
+
+.btn-sm {
+  padding: 3px 7px;
+  vertical-align: middle;
+}
+.four {
+  display: flex;
+  margin: auto;
+  border: 3px solid black;
+}
+
+.section {
+  /* height: 300px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 80%;
+  margin: auto;
+  padding: 10px;
+}
+.middle {
+  flex-direction: row-reverse;
+}
+.paras {
+  padding: 0 48px;
+}
+
+.one img {
+  width: 70%;
+}
+
+.two img {
+  width: 70%;
+}
+
+.three img {
+  width: 70%;
+}
+
+.contact {
+  background-color: #edf5f5;
+  height: 650px;
+}
+
+.text-transform {
+  text-align: center;
+  padding: 30px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 35px;
+}
+
+.form {
+  max-width: 60%;
+  margin: 0px auto;
+}
+
+.form-input {
+  padding: 5px 0;
+  width: 100%;
+  font-size: 16px;
+  border: 2px solid gray;
+  border-radius: 6px;
+  margin: 10px 0;
+  font-family: "Playfair Display", serif;
+}
+
+.burger {
+  position: absolute;
+  cursor: pointer;
+  right: 5%;
+  top: 15px;
+  display: none;
+}
+.line {
+  width: 33px;
+  background-color: white;
+  height: 4px;
+  margin: 5px 3px;
+}
+
+footer {
+  background: darkblue;
+  color: white;
+  padding: 9px 30px;
+  text-align: center;
+  font-family: "Ubuntu", sans serif;
+}
